@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&display=swap');
+
+body {
+	text-align: center;
+	background-image: url(images/bg-header-desktop.png);
+	background-repeat: no-repeat;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container {
+	max-width: 1440px;
+}
+
+#logo {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+#paragraph {
+	text-align: center;
+	margin: auto;
+}
+
+.paragraph1 {
+	max-width: 650px;
+}
+
+.paragraph2 {
+	max-width: 700px;
+}
+
+.paragraph3 {
+	max-width: 680px;
+}
+.paragraph4 {
+	max-width: 680px;
+}
+#h1, #h2, #h3, #h4 {
+	color: hsl(210, 10%, 33%);
+	font-weight: 600px;
+}
+
+#h1 {
+	font-size: 45px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 18px;
+	color: hsl(201, 11%, 66%);
+}
+
+.download {
+	padding-top: 30px;
+	padding-bottom: 150px;
+}
+
+.ios, .mac {
+	display: inline-block;
+	color: white;
+	padding: 15px 30px;
+	font-size: 18px;
+	border-radius: 50px;
+}
+
+.ios {
+	background-color: hsl(171, 66%, 44%);
+	box-shadow: 0px 2px 0px hsl(171, 66%, 35%), 0px 10px 20px -10px hsl(171, 66%, 44%);
+}
+
+.mac {
+	background-color: hsl(233, 100%, 69%);
+	box-shadow: 0px 2px 0px hsl(233, 100%, 60%), 0px 10px 20px -10px hsl(233, 100%, 69%);
+}
+
+#h2 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+#comp {
+	margin-left: -660px;
+	padding-top: 40px;
+	position: relative;
+}
+
+.feature {
+	position: absolute;
+	margin-top: -450px;
+	margin-left: 830px;
+	text-align: left;
+}
+
+#h3 {
+	font-size: 25px;
+	margin-bottom: -5px;
+}
+
+#h3-p {
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.access {
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+.create,
+.plain,
+.sneak{
+	display: inline-block;
+	max-width: 370px;
+	margin: 20px;
+	vertical-align: middle;
+}
+
+#p-create, #p-plain, #p-preview {
+	font-size: 17px;
+}
+
+.logos {
+	margin-top: 100px;
+	margin-bottom: 120px;
+}
+
+.logos img {
+	padding: 0px 45px;
+}
+
+.foot {
+	background-color: whitesmoke;
+	height: 150px;
+	width: 100%;
+}
+
+.image, .f1, .f2, .f3, .f4 {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+#footlogo {
+	height: 55px;
+	width: 55px;
+	margin-left: 50px;
+}
+
+.f1, .f2, .f3 {
+	text-align: left;
+	padding-right: 100px;
+	vertical-align: top;
+	font-size: 18px;
+	color: hsl(210, 10%, 33%);
+	font-weight: 400px;
+}
+
+.f1 {
+	padding-left: 150px;
+}
+
+.f3 {
+	padding-right: 200px;
+}
+
+.attribution a {
+	text-decoration: none;
+}
+
+/*Mobile Design*/
+
+@media screen and (max-width : 375px) {
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&display=swap');
+
+body {
+	text-align: center;
+	background-image: url(images/bg-header-mobile.png);
+	background-repeat: no-repeat;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+#logo {
+	padding-top: 110px;
+	padding-bottom: 50px;
+}
+
+#paragraph {
+	text-align: center;
+	margin: auto;
+}
+
+.paragraph1 {
+	font-size: 16px;
+	line-height: 27px;
+	max-width: 310px;
+	padding-bottom: 15px;
+}
+
+.paragraph2 {
+	font-size: 16px;
+	line-height: 27px;
+	max-width: 300px;
+}
+
+.paragraph3 {
+	font-size: 16px;
+	line-height: 27px;
+	max-width: 300px;
+}
+.paragraph4 {
+	max-width: 680px;
+	font-size: 16px;
+}
+#h1, #h2, #h3, #h4 {
+	color: hsl(210, 10%, 33%);
+	font-weight: 600px;
+}
+
+#h1 {
+	font-size: 30px;
+	margin: 20px auto;
+	max-width: 300px;
+}
+
+p {
+	font-size: 18px;
+	color: hsl(201, 11%, 66%);
+}
+
+.download {
+	padding-top: 30px;
+	padding-bottom: 140px;
+}
+
+.ios, .mac {
+	display: inline-block;
+	color: white;
+	padding: 15px 70px;
+	font-size: 18px;
+	border-radius: 50px;
+}
+
+.ios {
+	background-color: hsl(171, 66%, 44%);
+	box-shadow: 0px 2px 0px hsl(171, 66%, 35%), 0px 10px 20px -10px hsl(171, 66%, 44%);
+	margin-bottom: 25px;
+}
+
+.mac {
+	background-color: hsl(233, 100%, 69%);
+	box-shadow: 0px 2px 0px hsl(233, 100%, 60%), 0px 10px 20px -10px hsl(233, 100%, 69%);
+	margin-bottom: 10px;
+}
+
+#h2 {
+	font-size: 25px;
+	margin: 20px auto;
+	max-width: 300px;
+}
+
+#comp {
+	margin: 25px auto;
+	max-width: 300px;
+}
+
+.features {
+	margin: 35px auto;
+	text-align: center;
+}
+
+#h3 {
+	font-size: 23px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#h3-p1, #h3-p2, #h3-p3 {
+	line-height: 25px;
+	padding-bottom: 25px;
+}
+
+#h3-p1 {
+	text-align: center;
+	max-width: 330px;
+	margin: 0px auto;
+	font-size: 15px;
+}
+
+#h3-p2, #h3-p3 {
+	text-align: center;
+	max-width: 280px;
+	margin: 0px auto;
+	font-size: 15px;
+}
+
+.access {
+	margin-top: 170px;
+	margin-bottom: 100px;
+}
+
+.devices {
+	max-width: 330px;
+	margin-top: -40px;
+	margin-bottom: 80px;
+}
+
+#p-tools {
+	font-size: 16px;
+	max-width: 300px;
+	margin: 0px auto;
+	padding-bottom: 70px;
+}
+
+.create,
+.plain,
+.sneak{
+	display: inline-block;
+	margin: 30px;
+	vertical-align: middle;
+}
+
+#p-create, #p-plain, #p-preview {
+	line-height: 25px;
+	font-size: 15px;
+	max-width: 370px;
+	margin: 0px auto;
+	padding: 0px 10px;
+}
+
+#icon {
+	margin-bottom: 10px;
+}
+
+.logos {
+	margin-top: 100px;
+	margin-bottom: 120px;
+}
+
+.logos img {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.foot {
+	background-color: whitesmoke;
+	padding-bottom: 0;
+	height: 420px;
+}
+
+.image, .f1, .f2, .f3, .f4 {
+	margin-top: 50px;
+}
+
+#footlogo {
+	height: 55px;
+	width: 55px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+
+.f1, .f2, .f3, .f4, .f5 {
+	display: block;
+	font-size: 18px;
+	color: hsl(210, 10%, 33%);
+	font-weight: 400px;
+	margin-top: 10px;
+}
+
+.f1, .f2, .f3{
+	text-align: center;
+}
+
+.f1 {
+	padding-left: 100px;
+	padding-bottom: 15px;
+}
+
+.f2 {
+	padding-left: 100px;
+	padding-bottom: 15px;
+}
+
+.f3 {
+	padding-right: 0;
+	padding-bottom: 30px;
+}
+
+.f4 {
+	margin-left: 20px;
+}
+
+.attribution a {
+	text-decoration: none;
+}
+}
+
+/*# Avoid accidental Sketch file upload 
+###############################################
+## Please do not remove line 5 - thanks! 🙂 ##
+############################################### */
+*.sketch
+
+/* # Avoid accidental XD or Figma upload if you convert the design file
+#######################################################
+## Please do not remove lines 11 and 12 - thanks! 🙂 ##
+####################################################### */
+*.xd
+*.fig
+
+/* # Avoid your project being littered with annoying .DS_Store files! */
+.DS_Store
